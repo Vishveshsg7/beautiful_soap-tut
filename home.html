@@ -1,163 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Data Scientist</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: url('https://source.unsplash.com/1600x900/?data,technology') no-repeat center center/cover;
-            color: white;
-            padding: 6rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-            text-shadow: 2px 2px 4px #000;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        nav a {
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-            transition: background 0.3s, color 0.3s;
-        }
-        nav a:hover {
-            background-color: #555;
-            color: #f4f4f4;
-        }
-        .container {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        section {
-            margin-bottom: 3rem;
-            background: white;
-            padding: 2rem;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        section h2 {
-            margin-top: 0;
-            font-size: 2rem;
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        .skills, .projects {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .skill, .project {
-            flex: 1 1 45%;
-            margin: 1%;
-            padding: 1rem;
-            background-color: #f9f9f9;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            transition: transform 0.3s;
-        }
-        .skill:hover, .project:hover {
-            transform: scale(1.05);
-        }
-        .project img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .project p {
-            margin-top: 0.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: white;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
-        }
-        @media (max-width: 768px) {
-            .skills, .projects {
-                flex-direction: column;
-            }
-            .skill, .project {
-                flex: 1 1 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>John Doe</h1>
-        <p>Data Scientist | Machine Learning Enthusiast</p>
-    </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my portfolio! I'm John Doe, a passionate data scientist with expertise in machine learning, data analysis, and predictive modeling. I have a strong background in mathematics and computer science, and I enjoy using data to solve real-world problems.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="skill">
-                    <h3>Programming Languages</h3>
-                    <p>Python, R, SQL, Java</p>
-                </div>
-                <div class="skill">
-                    <h3>Data Analysis</h3>
-                    <p>Pandas, NumPy, Matplotlib, Seaborn</p>
-                </div>
-                <div class="skill">
-                    <h3>Machine Learning</h3>
-                    <p>Scikit-Learn, TensorFlow, Keras</p>
-                </div>
-                <div class="skill">
-                    <h3>Data Visualization</h3>
-                    <p>Tableau, Power BI, D3.js</p>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="https://source.unsplash.com/600x400/?coding,project" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of the first project. This project involved building a predictive model to forecast sales.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/600x400/?data,analysis" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Description of the second project. This project involved data visualization and analysis of a large dataset.</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you would like to get in touch with me, please email me at <a href="mailto:johndoe@example.com">johndoe@example.com</a>.</p>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
-    </footer>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <title>My Courses</title>
+   </head>
+   <body>
+      <h1>Hello, Start Learning!</h1>
+      <div class="card" id="card-python-for-beginners">
+         <div class="card-header">
+            Python
+         </div>
+         <div class="card-body">
+            <h5 class="card-title">Python for beginners</h5>
+            <p class="card-text">If you are new to Python, this is the course that you should buy!</p>
+            <a href="#" class="btn btn-primary">Start for 20$</a>
+         </div>
+      </div>
+      <div class="card" id="card-python-web-development">
+         <div class="card-header">
+            Python
+         </div>
+         <div class="card-body">
+            <h5 class="card-title">Python Web Development</h5>
+            <p class="card-text">If you feel enough confident with python, you are ready to learn how to create your own website!</p>
+            <a href="#" class="btn btn-primary">Start for 50$</a>
+         </div>
+      </div>
+      <div class="card" id="card-python-machine-learning">
+         <div class="card-header">
+            Python
+         </div>
+         <div class="card-body">
+            <h5 class="card-title">Python Machine Learning</h5>
+            <p class="card-text">Become a Python Machine Learning master!</p>
+            <a href="#" class="btn btn-primary">Start for 100$</a>
+         </div>
+      </div>
+   </body>
 </html>
